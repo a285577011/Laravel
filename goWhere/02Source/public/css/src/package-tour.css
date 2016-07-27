@@ -1,0 +1,248 @@
+/* IE9 HACK 避免在IE9下背景色叠加 */
+:root .top-search-model {
+  filter: none;
+}
+.package-tour-bg {
+  position: relative;
+  width: 100%;
+  height: 638px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.package-tour-bg .top-search-model {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled="true", startColorstr="#7F000000", endColorstr="#7F000000");
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.package-tour-bg .top-search-model form {
+  position: relative;
+  width: 641px;
+  height: 60px;
+  margin: 45px auto;
+  line-height: 58px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.package-tour-bg .top-search-model form .search-condition {
+  position: relative;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+.package-tour-bg .top-search-model form .search-condition input {
+  width: 150px;
+  height: 34px;
+  padding: 0 20px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #666;
+  border: none;
+  outline: none;
+}
+.package-tour-bg .top-search-model form .search-condition span {
+  padding: 0 3px 0 20px;
+  font-size: 16px;
+  color: #666;
+}
+.package-tour-bg .top-search-model form .ts-destination {
+  width: 151px;
+}
+.package-tour-bg .top-search-model form .ts-begin-time {
+  width: 243px;
+}
+.package-tour-bg .top-search-model form .ts-day {
+  width: 139px;
+}
+.package-tour-bg .top-search-model form .ts-day input {
+  width: 78px;
+}
+.package-tour-bg .top-search-model form .ts-submit {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  border: none;
+  width: 108px;
+  height: 60px;
+  color: #fff;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #f58220;
+  cursor: pointer;
+}
+.district .district-list {
+  width: 1160px;
+  height: 106px;
+  margin: 35px auto;
+}
+.district .district-list .district-item {
+  position: relative;
+  float: left;
+  width: 25%;
+  padding-left: 120px;
+  cursor: pointer;
+}
+.district .district-list .district-item .district-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 106px;
+  height: 106px;
+  background-image: url('../../images/icon_large.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.district .district-list .district-item .district-line {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+.district .district-list .district-item .district-line .continent {
+  color: #999;
+}
+.district .district-list .district-item .district-route {
+  position: relative;
+  font-size: 14px;
+  color: #333;
+}
+.district .district-list .district-item .district-route .num {
+  font: 30px/30px Georgia;
+}
+.district .district-list .district-item .district-route i {
+  font-size: 12px;
+}
+.district .district-list .district-item:hover .district-line {
+  color: #f58220;
+}
+.district .district-list .district-item:hover .district-line .continent {
+  color: #f58220;
+}
+.district .district-list .district-item:hover .district-route {
+  color: #f58220;
+}
+.inner-title {
+  text-align: center;
+}
+.inner-title .p1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+}
+.inner-title .line {
+  position: relative;
+  width: 210px;
+  height: 3px;
+  margin: 15px auto;
+  background-color: #dfdfdf;
+}
+.inner-title .line:after {
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 3px;
+  background-color: #858585;
+  content: "";
+}
+.inner-title .p2 {
+  font-size: 16px;
+  color: #999;
+}
+.special-recommend,
+.global-tour {
+  padding: 35px 0;
+}
+#box {
+  position: relative;
+  width: 1200px;
+  height: 350px;
+  margin: 0 auto;
+}
+#box ul {
+  position: relative;
+  width: 754px;
+  height: 292px;
+}
+#box li {
+  position: absolute;
+  list-style: none;
+  background-color: #fff;
+  width: 0;
+  height: 0;
+  top: 146px;
+  left: 377px;
+  padding: 10px;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.15);
+  z-index: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 3px;
+}
+#box li img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+#box .prev,
+#box .next {
+  display: none;
+}
+@media screen and (max-width: 1199px) {
+  .mis-stage {
+    width: 900px;
+  }
+}
+.global-warp {
+  width: 1200px;
+  margin: 30px auto;
+}
+.global-warp .global-item {
+  margin-bottom: 15px;
+}
+.global-warp .global-item .global-left {
+  float: left;
+  width: 390px;
+  height: 586px;
+  margin-right: 15px;
+}
+.global-warp .global-item .global-left img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 16px;
+}
+.global-warp .global-item .global-right {
+  width: 795px;
+  height: 285px;
+  float: left;
+}
+.global-warp .global-item .global-right .sub {
+  position: relative;
+  float: left;
+  width: 390px;
+  height: 285px;
+  margin-bottom: 16px;
+}
+.global-warp .global-item .global-right .sub img {
+  width: 100%;
+  height: 100%;
+}
+.global-warp .global-item .global-right .sub .sub-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #fff;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled="true", startColorstr="#7F000000", endColorstr="#7F000000");
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.global-warp .global-item .global-right .pr {
+  margin-right: 15px;
+}
+:root .sub-text {
+  filter: none;
+}

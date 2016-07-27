@@ -1,0 +1,650 @@
+.ow-mice-bg {
+  position: relative;
+  width: 100%;
+  height: 558px;
+  background: url("../../images/hjbg.jpg") no-repeat center;
+}
+.ow-mice-bg .gradual-bg {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  background: -moz-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -webkit-gradient(linear, left, right, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.5)));
+  background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -o-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: -ms-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+.ow-mice-bg .section-warp {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp {
+  position: absolute;
+  top: 80px;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp .ow-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form {
+  position: absolute;
+  right: 30px;
+  width: 440px;
+  margin-top: 60px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .group {
+  position: relative;
+  margin-bottom: 55px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .group label {
+  position: absolute;
+  top: -26px;
+  left: 0;
+  font-size: 16px;
+  color: #fff;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .group input,
+.ow-mice-bg .section-warp .ow-mice-form-warp form .group select {
+  width: 100%;
+  padding-right: 22px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .group > i {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  font-size: 12px;
+  color: #999;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .destination {
+  width: 400px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .destination .place-select {
+  left: 0;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .nnt {
+  width: 185px;
+  margin-right: 40px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .budget {
+  width: 135px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .budget .tip {
+  display: block;
+  position: absolute;
+  top: 8px;
+  right: -40px;
+  font-size: 14px;
+  color: #fff;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand {
+  border: none;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul li {
+  margin-right: 40px;
+  font-size: 16px;
+  color: #fff;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul li span {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul li span i {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  color: #fff;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul li span .xz {
+  display: none;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul li span .wxz {
+  display: inline-block;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul .cur .xz {
+  display: inline-block;
+  color: #f58220;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .demand ul .cur .wxz {
+  display: none;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .fName {
+  margin-right: 40px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .tel,
+.ow-mice-bg .section-warp .ow-mice-form-warp form .fName {
+  width: 170px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .btns {
+  margin-top: -30px;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .btns button {
+  width: 90px;
+  height: 40px;
+  margin-right: 40px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  background: #f58220;
+  cursor: pointer;
+}
+.ow-mice-bg .section-warp .ow-mice-form-warp form .btns a {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  text-align: center;
+}
+.precise-advisory {
+  z-index: 99991;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 530px;
+  height: 647px;
+  margin-left: -265px;
+  margin-top: -323px;
+  padding: 40px 28px;
+  border-radius: 3px;
+  background: #fff;
+}
+.precise-advisory form {
+  position: relative;
+}
+.precise-advisory form .ow-close {
+  position: absolute;
+  top: -25px;
+  right: -10px;
+  font-size: 24px;
+  color: #ccc;
+  cursor: pointer;
+}
+.precise-advisory form .ow-close:hover {
+  color: #f58220;
+}
+.precise-advisory form .title {
+  font-size: 16px;
+  color: #f58220;
+}
+.precise-advisory form .hr1,
+.precise-advisory form .hr2 {
+  width: 100%;
+  margin: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+.precise-advisory form .hr2 {
+  margin-top: 0;
+  border-bottom: 1px dashed #ddd;
+}
+.precise-advisory form .group {
+  position: relative;
+  float: left;
+  margin-bottom: 15px;
+}
+.precise-advisory form .group label {
+  display: inline-block;
+  width: 64px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+.precise-advisory form .group .select2-container {
+  z-index: 99999;
+}
+.precise-advisory form .group .short {
+  width: 130px;
+}
+.precise-advisory form .group .middle {
+  width: 160px;
+}
+.precise-advisory form .group .long {
+  width: 400px;
+}
+.precise-advisory form .group .tip {
+  font-size: 14px;
+  color: #666;
+}
+.precise-advisory form .destination .icon-search {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  font-size: 16px;
+  color: #666;
+}
+.precise-advisory form .goTime .icon-date {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  font-size: 16px;
+  color: #666;
+}
+.precise-advisory form .day .plusDay,
+.precise-advisory form .day .minusDay {
+  position: absolute;
+  right: 23px;
+  font-size: 12px;
+  color: #999;
+  cursor: pointer;
+}
+.precise-advisory form .day .plusDay:hover,
+.precise-advisory form .day .minusDay:hover {
+  color: #f58220;
+}
+.precise-advisory form .day .plusDay {
+  top: 3px;
+}
+.precise-advisory form .day .minusDay {
+  top: 17px;
+}
+.precise-advisory form .textarea label {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.precise-advisory form .textarea textarea {
+  width: 400px;
+  height: 100px;
+  margin-left: 70px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.precise-advisory form .demand {
+  position: relative;
+  width: 100%;
+}
+.precise-advisory form .demand ul {
+  position: absolute;
+  top: 7px;
+  left: 70px;
+}
+.precise-advisory form .demand ul li {
+  float: left;
+  margin-right: 15px;
+  font-size: 14px;
+  color: #333;
+}
+.precise-advisory form .demand ul li span {
+  font-size: 16px;
+}
+.precise-advisory form .demand ul li span .xz {
+  display: none;
+}
+.precise-advisory form .demand ul li span .wxz {
+  display: inline-block;
+}
+.precise-advisory form .demand ul .cur span .xz {
+  display: inline-block;
+}
+.precise-advisory form .demand ul .cur span .wxz {
+  display: none;
+}
+.precise-advisory form button {
+  display: block;
+  width: 90px;
+  height: 40px;
+  margin: auto;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  background: #f58220;
+  cursor: pointer;
+}
+.mice-category {
+  width: 100%;
+}
+.mice-category ul {
+  width: 1200px;
+  margin: 35px auto;
+}
+.mice-category ul li {
+  position: relative;
+  float: left;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+.mice-category ul li .bgImg {
+  width: 108px;
+  height: 108px;
+  margin: auto;
+  background: url("../../images/pngs.png") no-repeat;
+}
+.mice-category ul li .bgImg i {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  margin-left: -26px;
+  font-size: 48px;
+  color: #fff;
+}
+.mice-category ul li .sports {
+  background-position: 0 -40px;
+}
+.mice-category ul li .celebration {
+  background-position: 0 -148px;
+}
+.mice-category ul li .evening {
+  background-position: 0 -256px;
+}
+.mice-category ul li .meeting {
+  background-position: 0 -364px;
+}
+.mice-category ul li .travel {
+  background-position: 0 -472px;
+}
+.mice-category ul li p {
+  margin-top: 15px;
+  color: #333;
+}
+.mice-category ul li:hover .sports {
+  background-position: -108px -40px;
+}
+.mice-category ul li:hover .celebration {
+  background-position: -108px -148px;
+}
+.mice-category ul li:hover .evening {
+  background-position: -108px -256px;
+}
+.mice-category ul li:hover .meeting {
+  background-position: -108px -364px;
+}
+.mice-category ul li:hover .travel {
+  background-position: -108px -472px;
+}
+.mice-category ul li:hover i {
+  color: #f58220;
+}
+.mice-category ul li:hover p {
+  color: #f58220;
+}
+.mice-block {
+  padding: 35px 0;
+  width: 100%;
+}
+.mice-block .title {
+  text-align: center;
+}
+.mice-block .title .tp1 {
+  font-size: 24px;
+  color: #666;
+}
+.mice-block .title .line {
+  position: relative;
+  width: 210px;
+  height: 3px;
+  margin: 18px auto;
+  background: #dfdfdf;
+}
+.mice-block .title .line:before {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 3px;
+  margin-left: -23px;
+  background: #858585;
+  content: "";
+}
+.mice-block .title .tp2 {
+  font-size: 16px;
+  color: #999;
+}
+.suc-case {
+  background: #f5f5f5;
+}
+.suc-case .cases {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  overflow-x: hidden;
+}
+.suc-case .cases .all-case {
+  position: absolute;
+  top: 0;
+  left: 900px;
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+  font-size: 60px;
+  color: #fff;
+  background: #f58220;
+  text-align: center;
+}
+.suc-case .cases .case-ul {
+  width: 30000px;
+}
+.suc-case .cases .case-ul li {
+  float: left;
+  height: 300px;
+}
+.suc-case .cases .case-ul li img {
+  display: block;
+  float: left;
+  width: 600px;
+  height: 100%;
+}
+.suc-case .cases .case-ul li .case-text {
+  position: relative;
+  float: left;
+  width: 300px;
+  height: 100%;
+  padding: 30px;
+}
+.suc-case .cases .case-ul li .case-text:before {
+  content: "";
+  position: absolute;
+  top: 33px;
+  left: -16px;
+  border-top: 16px solid transparent;
+  border-bottom: 16px solid transparent;
+}
+.suc-case .cases .case-ul li .case-text .ct1 {
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #fff;
+}
+.suc-case .cases .case-ul li .case-text .ct2 {
+  font-size: 14px;
+  color: #fff;
+}
+.suc-case .cases .case-ul li .case-text .see-details {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  margin-left: -30px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.suc-case .cases .case-ul li .case-text .see-details:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  cursor: pointer;
+  content: "+";
+}
+.suc-case .cases .fRow .case-text {
+  background: #2f383d;
+}
+.suc-case .cases .fRow .case-text:before {
+  border-right: 16px solid #2f383d;
+}
+.suc-case .cases .fRow .case-text .see-details {
+  color: #0896ff;
+  background: #262d31;
+}
+.suc-case .cases .fRow .case-text .see-details a {
+  color: #0896ff;
+}
+.suc-case .cases .fRow .case-text .see-details:after {
+  background: #1e2427;
+}
+.suc-case .cases .sRow {
+  margin-left: -300px;
+}
+.suc-case .cases .sRow .case-text {
+  background: #f58220;
+}
+.suc-case .cases .sRow .case-text:before {
+  border-right: 16px solid #f58220;
+}
+.suc-case .cases .sRow .case-text .see-details {
+  color: #fff;
+  background: #cd6914;
+}
+.suc-case .cases .sRow .case-text .see-details a {
+  color: #fff;
+}
+.suc-case .cases .sRow .case-text .see-details:after {
+  background: #c05f0c;
+}
+.suc-case .btns {
+  margin-top: 20px;
+  text-align: center;
+}
+.suc-case .btns a {
+  display: inline-block;
+  width: 90px;
+  height: 40px;
+  margin: 0 20px;
+  line-height: 40px;
+  font-size: 30px;
+  color: #fff;
+  background: #999;
+  text-align: center;
+}
+.suc-case .btns a:hover {
+  background-color: #f58220;
+}
+.explore .explore-main {
+  width: 1200px;
+  margin: 40px auto 0;
+}
+.explore .explore-main .explore-destination {
+  float: left;
+  position: relative;
+  height: 360px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+.explore .explore-main .explore-destination img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.explore .explore-main .explore-destination .ed1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #fff;
+}
+.explore .explore-main .explore-destination .ed2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  font-size: 14px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.explore .explore-main .explore-destination .ed2 p {
+  width: 230px;
+  margin: auto;
+  text-align: center;
+}
+.explore .explore-main .explore-destination .ed2 a {
+  display: block;
+  width: 90px;
+  height: 40px;
+  line-height: 36px;
+  margin: 20px auto;
+  font-size: 16px;
+  color: #f58220;
+  border: 2px solid #f58220;
+  border-radius: 4px;
+  background: transparent;
+  text-align: center;
+}
+.explore .explore-main .mr {
+  margin-right: 16px;
+}
+.explore .explore-main .short {
+  width: 368px;
+}
+.explore .explore-main .middle {
+  width: 432px;
+}
+.explore .explore-main .long {
+  width: 816px;
+}
+.live-data {
+  width: 100%;
+  height: 283px;
+  margin-bottom: 110px;
+  background: url("../../images/mice001.jpg") no-repeat center;
+}
+.live-data .live-data-main {
+  width: 1200px;
+  margin: 30px auto;
+}
+.live-data .live-data-main ul li {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+.live-data .live-data-main ul li .text {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  padding: 40px 0 0;
+  background: url("../../images/mice-circle.png") no-repeat;
+  text-align: center;
+}
+.live-data .live-data-main ul li .text .ld1 {
+  margin-bottom: 20px;
+  font-size: 34px;
+  color: #f58220;
+}
+.live-data .live-data-main ul li .text .ld2 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+}
+.live-data .live-data-main ul li .text .ld2 span {
+  font-size: 24px;
+  color: #f58220;
+}
+.live-data .live-data-main ul li .text .ld3 {
+  font-size: 16px;
+  color: #333;
+}

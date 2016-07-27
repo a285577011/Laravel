@@ -1,0 +1,354 @@
+.package-tour-detail-warp {
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+.package-tour-detail-warp .pt-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+.package-tour-detail-warp .ad-gallery {
+  float: left;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.package-tour-detail-warp .ad-gallery .ad-image-wrapper {
+  height: 300px;
+}
+.package-tour-detail-warp .ad-gallery .ad-thumbs li a img {
+  height: 86px;
+}
+.package-tour-detail-warp .pt-msg {
+  float: left;
+  width: 660px;
+  padding: 20px;
+}
+.package-tour-detail-warp .pt-msg .p1 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+.package-tour-detail-warp .pt-msg .p1 .label {
+  color: #666;
+}
+.package-tour-detail-warp .pt-msg .pt-price {
+  height: 80px;
+  margin: 10px 0;
+  padding: 0 15px;
+  line-height: 80px;
+  font-size: 14px;
+  color: #999;
+  background-color: #fde6d2;
+}
+.package-tour-detail-warp .pt-msg .pt-price .pt-b {
+  font-size: 20px;
+}
+.package-tour-detail-warp .pt-msg .pt-price .mc {
+  color: #f58220;
+}
+.package-tour-detail-warp .pt-msg .itinerary-features {
+  font-size: 14px;
+  color: #666;
+}
+.package-tour-detail-warp .pt-msg .itinerary-features .p-t {
+  margin: 20px 0 10px;
+  font-weight: bold;
+  color: #333;
+}
+.package-tour-detail-warp .pt-msg .itinerary-features .p1 {
+  margin-bottom: 10px;
+}
+.package-tour-detail-warp .pt-msg .itinerary-features ul li {
+  margin-bottom: 10px;
+}
+.package-tour-detail-warp .pt-msg .itinerary-features ul li i {
+  color: #999;
+}
+.package-tour-detail-warp .pt-calendar {
+  float: left;
+  width: 500px;
+}
+.package-tour-detail-warp .pt-calendar .cal-c {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #0896ff;
+  text-align: center;
+}
+.package-tour-detail-warp .pt-calendar .cal-c .cal-pre {
+  position: absolute;
+  left: 10px;
+}
+.package-tour-detail-warp .pt-calendar .cal-c .cal-next {
+  position: absolute;
+  right: 10px;
+}
+.package-tour-detail-warp .pt-calendar table {
+  width: 100%;
+}
+.package-tour-detail-warp .pt-calendar table th {
+  height: 40px;
+  font-size: 16px;
+  color: #666;
+  border: 1px solid #dfdfdf;
+}
+.package-tour-detail-warp .pt-calendar table td {
+  position: relative;
+  height: 60px;
+  font-size: 12px;
+  color: #666;
+  border: 1px solid #dfdfdf;
+}
+.package-tour-detail-warp .pt-calendar table td .date {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.package-tour-detail-warp .pt-calendar table td .surplus {
+  position: absolute;
+  right: 5px;
+  bottom: 20px;
+  color: #4fb4ff;
+}
+.package-tour-detail-warp .pt-calendar table td .cal-price {
+  position: absolute;
+  right: 3px;
+  bottom: 5px;
+  color: #f58220;
+}
+.package-tour-detail-warp .pt-order {
+  float: left;
+  padding: 10px 20px;
+}
+.package-tour-detail-warp .pt-order .pt-order-item {
+  margin-bottom: 25px;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .label {
+  display: inline-block;
+  width: 70px;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-order-time {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #333;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-begin,
+.package-tour-detail-warp .pt-order .pt-order-item .pt-end {
+  font-size: 12px;
+  color: #999;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-begin .time,
+.package-tour-detail-warp .pt-order .pt-order-item .pt-end .time {
+  color: #333;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-num {
+  display: inline-block;
+  margin-right: 20px;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-num .minus,
+.package-tour-detail-warp .pt-order .pt-order-item .pt-num .add {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 14px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-num .num {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+  text-align: center;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-num span {
+  font-size: 14px;
+  color: #333;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .pt-order-price {
+  font-size: 24px;
+  color: #f58220;
+}
+.package-tour-detail-warp .pt-order .pt-order-item .order-ok {
+  display: inline-block;
+  margin-left: 60px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 2px;
+  background-color: #f58220;
+  text-align: center;
+  cursor: pointer;
+}
+.package-tour-detail-warp .pt-arrange {
+  margin-top: 20px;
+}
+.package-tour-detail-warp .pt-arrange .tab {
+  border-bottom: 1px solid #dddddd;
+}
+.package-tour-detail-warp .pt-arrange .tab a {
+  float: left;
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin-right: 40px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+.package-tour-detail-warp .pt-arrange .tab a:hover {
+  color: #fff;
+  background-color: #f58220;
+}
+.package-tour-detail-warp .pt-arrange .tab .tab-cur {
+  color: #fff;
+  background-color: #f58220;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #cccccc;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .tab-title {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 20px;
+  line-height: 35px;
+  font-size: 18px;
+  color: #333;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .tab-title:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 6px;
+  height: 35px;
+  background-color: #cccccc;
+  border-radius: 2px;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date {
+  float: left;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date li {
+  width: 80px;
+  height: 40px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #c8c8c8;
+  text-align: center;
+  cursor: pointer;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date li:hover {
+  background-color: #f58220;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date .cur {
+  background-color: #f58220;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-fixed {
+  position: fixed;
+  top: 50px;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain {
+  float: left;
+  width: 1000px;
+  height: auto;
+  margin-left: 80px;
+  padding-left: 30px;
+  border-left: 1px solid #dfdfdf;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-icon {
+  position: absolute;
+  top: -5px;
+  left: -45px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fff;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-icon i {
+  font-size: 24px;
+  color: #f58220;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .s1 {
+  position: absolute;
+  top: -5px;
+  left: -45px;
+  width: 30px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 12px;
+  color: #fff;
+  background: url("../../images/pt01.png") no-repeat;
+  text-align: center;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-text .p1 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-text .p2 {
+  font-size: 14px;
+  color: #666;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-text .s2 {
+  font-size: 16px;
+  color: #333;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-text .dl-text-sub {
+  padding: 20px;
+  background-color: #fafafa;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-text .tour-item {
+  position: relative;
+  margin-bottom: 20px;
+  text-indent: 26px;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .route-date-contain .date-list .dl-item .dl-text .tour-item span {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #666;
+  border-radius: 50%;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .ml160 {
+  margin-left: 160px;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .tab-text .p1 {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #f58220;
+}
+.package-tour-detail-warp .pt-arrange .tab-contain .tab-item .tab-text .p2 {
+  line-height: 2;
+  font-size: 12px;
+  color: #666;
+}

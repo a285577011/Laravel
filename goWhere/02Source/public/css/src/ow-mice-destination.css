@@ -1,0 +1,343 @@
+.mice-destination-bg {
+  position: relative;
+  width: 100%;
+  height: 640px;
+}
+.mice-destination-bg .bg-zzc {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+}
+.mice-destination-bg .warp {
+  position: relative;
+  width: 1200px;
+  margin: auto;
+}
+.mice-destination-bg .warp .mice-snap {
+  float: right;
+  width: 310px;
+  height: 472px;
+  margin: 84px;
+  padding: 20px 15px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.mice-destination-bg .warp .mice-snap .title {
+  padding: 0 15px 15px;
+  font-size: 28px;
+}
+.mice-destination-bg .warp .mice-snap .hr {
+  color: #cecece;
+}
+.mice-destination-bg .warp .mice-snap .items {
+  padding: 20px 15px;
+}
+.mice-destination-bg .warp .mice-snap .items .item {
+  margin-bottom: 10px;
+}
+.mice-destination-bg .warp .mice-snap .items .item .p1 {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #919191;
+}
+.mice-destination-bg .warp .mice-snap .items .item .p2 {
+  font-size: 18px;
+}
+.mice-destination-bg .warp .mice-snap .btn {
+  display: block;
+  width: 100px;
+  height: 40px;
+  line-height: 38px;
+  margin: auto;
+  font-size: 18px;
+  color: #f58220;
+  text-align: center;
+  border: 1px solid #f58220;
+  border-radius: 4px;
+}
+.destination-msg {
+  width: 100%;
+}
+.destination-msg .warp {
+  width: 1200px;
+  margin: 30px auto;
+}
+.destination-msg .warp .title .rect {
+  width: 62px;
+  height: 62px;
+  font-size: 24px;
+  color: #fff;
+  background: #f58220;
+}
+.destination-msg .warp .title .rect .p1 {
+  text-align: center;
+}
+.destination-msg .warp .title .rect .p2 {
+  text-align: right;
+}
+.destination-msg .warp .title .out-rect {
+  height: 62px;
+  margin-left: 5px;
+  font-size: 24px;
+}
+.destination-msg .warp .title .out-rect .p1 {
+  color: #333;
+}
+.destination-msg .warp .title .out-rect .p2 {
+  color: #f58220;
+}
+.destination-introduction .contain {
+  margin-top: 30px;
+}
+.destination-introduction .contain p {
+  line-height: 26px;
+  font-size: 14px;
+  color: #666;
+  text-indent: 28px;
+}
+.destination-advantage .advantage-list li {
+  height: 300px;
+  margin: 30px 0;
+}
+.destination-advantage .advantage-list li .img {
+  position: relative;
+  width: 50%;
+  padding: 0 60px;
+}
+.destination-advantage .advantage-list li .img img {
+  display: block;
+}
+.destination-advantage .advantage-list li .img:after {
+  position: absolute;
+  bottom: -30px;
+  width: 65px;
+  height: 65px;
+  content: "";
+}
+.destination-advantage .advantage-list li .text {
+  position: relative;
+  width: 50%;
+  padding: 17px 60px;
+}
+.destination-advantage .advantage-list li .text i {
+  position: absolute;
+  font-size: 38px;
+  color: #dcdcdc;
+}
+.destination-advantage .advantage-list li .text .p1 {
+  font-size: 28px;
+  color: #f58220;
+}
+.destination-advantage .advantage-list li .text .p2 {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+.destination-advantage .advantage-list .odd .img {
+  float: left;
+}
+.destination-advantage .advantage-list .odd .img:after {
+  right: 30px;
+  background: url("../../images/ysr.png");
+}
+.destination-advantage .advantage-list .odd .text {
+  float: right;
+}
+.destination-advantage .advantage-list .odd .text i {
+  top: 0;
+  left: 0;
+}
+.destination-advantage .advantage-list .even .img {
+  float: right;
+}
+.destination-advantage .advantage-list .even .img:after {
+  left: 30px;
+  background: url("../../images/ysl.png");
+}
+.destination-advantage .advantage-list .even .text {
+  float: left;
+}
+.destination-advantage .advantage-list .even .text i {
+  right: 0;
+  bottom: 0;
+}
+.destination-advantage .advantage-list .even .text .p1 {
+  text-align: right;
+}
+.destination-meeting .meeting-list li {
+  width: 100%;
+  height: 330px;
+  margin: 20px 0;
+  padding: 9px;
+  border: 1px solid #ddd;
+}
+.destination-meeting .meeting-list li img {
+  float: left;
+  width: 670px;
+  height: 310px;
+}
+.destination-meeting .meeting-list li .text {
+  float: right;
+  width: 510px;
+  height: 310px;
+  padding: 0 15px 0 40px;
+}
+.destination-meeting .meeting-list li .text .p1 {
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  color: #999;
+}
+.destination-meeting .meeting-list li .text .p1 .star {
+  font-size: 16px;
+  color: #ffbb00;
+}
+.destination-meeting .meeting-list li .text .p2 {
+  margin: 10px 0 30px;
+  font-size: 14px;
+  color: #666;
+}
+.destination-meeting .meeting-list li .text .p3 {
+  line-height: 26px;
+  font-size: 14px;
+  color: #666;
+}
+.attraction .attraction-list {
+  margin-top: 50px;
+}
+.attraction .attraction-list li {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+}
+.attraction .attraction-list li .pics {
+  position: relative;
+  width: 50%;
+}
+.attraction .attraction-list li .pics img {
+  position: absolute;
+  display: block;
+  border: 1px solid #f5f5f5;
+}
+.attraction .attraction-list li .text {
+  width: 50%;
+}
+.attraction .attraction-list li .text .title {
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #f58220;
+}
+.attraction .attraction-list li .text .disc {
+  font-size: 14px;
+  color: #666;
+}
+.attraction .attraction-list .odd .pics {
+  float: left;
+}
+.attraction .attraction-list .odd .pics .pic1 {
+  top: -30px;
+  left: 75px;
+  z-index: 1;
+  width: 300px;
+  height: 250px;
+}
+.attraction .attraction-list .odd .pics .pic2 {
+  top: 100px;
+  left: 270px;
+  z-index: 2;
+  width: 320px;
+  height: 220px;
+}
+.attraction .attraction-list .odd .pics .pic3 {
+  top: 160px;
+  left: 170px;
+  z-index: 3;
+  width: 220px;
+  height: 270px;
+}
+.attraction .attraction-list .odd .text {
+  float: right;
+  width: 50%;
+  padding: 0 50px;
+}
+.attraction .attraction-list .odd .text .title {
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #f58220;
+}
+.attraction .attraction-list .odd .text .disc {
+  font-size: 14px;
+  color: #666;
+}
+.attraction .attraction-list .even .pics {
+  float: right;
+  padding: 0 50px;
+}
+.attraction .attraction-list .even .pics .pic1 {
+  top: 0;
+  left: 50px;
+  width: 200px;
+  height: 320px;
+}
+.attraction .attraction-list .even .pics .pic2 {
+  top: 0;
+  left: 250px;
+  width: 300px;
+  height: 160px;
+}
+.attraction .attraction-list .even .pics .pic3 {
+  top: 160px;
+  left: 250px;
+  width: 300px;
+  height: 160px;
+}
+.attraction .attraction-list .even .text {
+  float: left;
+  width: 50%;
+  padding-left: 100px;
+}
+.attraction .attraction-list .even .text .title {
+  margin-bottom: 50px;
+  font-size: 24px;
+  color: #f58220;
+  text-align: right;
+}
+.attraction .attraction-list .even .text .disc {
+  font-size: 14px;
+  color: #666;
+}
+.case .case-list > li {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.case .case-list > li img {
+  display: block;
+  width: 280px;
+  height: 160px;
+}
+.case .case-list > li .text {
+  padding: 20px;
+  background: #f5f5f5;
+}
+.case .case-list > li .text .p1 {
+  font-size: 14px;
+  color: #333;
+}
+.case .case-list > li .text .p2 {
+  line-height: 18px;
+  font-size: 12px;
+  color: #666;
+}
+.case .case-list > li .text .line {
+  width: 100%;
+  margin: 10px 0;
+  border-bottom: 1px dashed #d3d3d3;
+}
+.case .case-list > li .text .other li {
+  line-height: 18px;
+  font-size: 12px;
+  color: #666;
+}

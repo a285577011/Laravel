@@ -1,0 +1,221 @@
+.ow-mice-list-bg {
+  width: 100%;
+  height: 328px;
+  background: url("../../images/case001.jpg") no-repeat center;
+}
+.ow-mice-list-bg .warp {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+.ow-mice-list-bg .warp .text {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  width: 380px;
+  height: 98px;
+  line-height: 29px;
+  padding: 20px;
+  color: #fff;
+  background: url("../../images/caseop001.png") no-repeat center;
+}
+.mice-category {
+  width: 100%;
+}
+.mice-category ul {
+  width: 1200px;
+  margin: 35px auto;
+}
+.mice-category ul li {
+  position: relative;
+  float: left;
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+}
+.mice-category ul li .bgImg {
+  width: 108px;
+  height: 108px;
+  margin: auto;
+  background: url("../../images/pngs.png") no-repeat;
+}
+.mice-category ul li .bgImg i {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  margin-left: -26px;
+  font-size: 48px;
+  color: #fff;
+}
+.mice-category ul li .sports {
+  background-position: 0 -40px;
+}
+.mice-category ul li .celebration {
+  background-position: 0 -148px;
+}
+.mice-category ul li .evening {
+  background-position: 0 -256px;
+}
+.mice-category ul li .meeting {
+  background-position: 0 -364px;
+}
+.mice-category ul li .travel {
+  background-position: 0 -472px;
+}
+.mice-category ul li p {
+  margin-top: 15px;
+  color: #333;
+}
+.mice-category ul li:hover .sports {
+  background-position: -108px -40px;
+}
+.mice-category ul li:hover .celebration {
+  background-position: -108px -148px;
+}
+.mice-category ul li:hover .evening {
+  background-position: -108px -256px;
+}
+.mice-category ul li:hover .meeting {
+  background-position: -108px -364px;
+}
+.mice-category ul li:hover .travel {
+  background-position: -108px -472px;
+}
+.mice-category ul li:hover i {
+  color: #f58220;
+}
+.mice-category ul li:hover p {
+  color: #f58220;
+}
+.case-list {
+  width: 100%;
+}
+.case-list .warp {
+  width: 1200px;
+  margin: auto;
+}
+.case-list .warp .case-list-ul > li {
+  position: relative;
+  width: 100%;
+  height: 390px;
+  padding: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+.case-list .warp .case-list-ul > li img {
+  display: block;
+  width: 728px;
+  height: 100%;
+}
+.case-list .warp .case-list-ul > li .text {
+  width: 462px;
+  height: 380px;
+  padding: 30px 15px 0 25px;
+  color: #fff;
+  background: #000;
+}
+.case-list .warp .case-list-ul > li .text .tp1 {
+  font-size: 24px;
+  line-height: 48px;
+}
+.case-list .warp .case-list-ul > li .text .tp2 {
+  font-size: 14px;
+  line-height: 28px;
+}
+.case-list .warp .case-list-ul > li .text .tUl {
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 28px;
+  border-top: 1px dashed #ddd;
+}
+.case-list .warp .case-list-ul > li .text .tUl li {
+  position: relative;
+  padding-left: 36px;
+}
+.case-list .warp .case-list-ul > li .text .tUl li .star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}
+.case-list .warp .case-list-ul2 > li {
+  position: relative;
+  width: 100%;
+  height: 390px;
+  padding: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+.case-list .warp .case-list-ul2 > li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.case-list .warp .case-list-ul2 > li .triangle {
+  position: absolute;
+  top: 60px;
+  right: 426px;
+  border-top: 16px solid #fff;
+  border-bottom: 16px solid #fff;
+  border-left: 12px solid transparent;
+}
+.case-list .warp .case-list-ul2 > li .triangle:before {
+  position: absolute;
+  top: -76px;
+  left: -12px;
+  width: 12px;
+  height: 60px;
+  background: #fff;
+  content: "";
+}
+.case-list .warp .case-list-ul2 > li .triangle:after {
+  position: absolute;
+  top: 16px;
+  left: -12px;
+  width: 12px;
+  height: 292px;
+  background: #fff;
+  content: "";
+}
+.case-list .warp .case-list-ul2 > li .text {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 422px;
+  height: 380px;
+  padding: 20px 15px 0 25px;
+  background: #fff;
+}
+.case-list .warp .case-list-ul2 > li .text .tp1 {
+  font-size: 24px;
+  line-height: 48px;
+}
+.case-list .warp .case-list-ul2 > li .text .tp2 {
+  font-size: 14px;
+  line-height: 28px;
+}
+.case-list .warp .case-list-ul2 > li .text .tUl {
+  margin-top: 10px;
+  padding: 10px 0;
+  font-size: 14px;
+  line-height: 28px;
+  border-top: 1px dashed #ddd;
+}
+.case-list .warp .case-list-ul2 > li .text .tUl li {
+  position: relative;
+  padding-left: 36px;
+}
+.case-list .warp .case-list-ul2 > li .text .tUl li .star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+}

@@ -1,0 +1,67 @@
+.case-head {
+  position: relative;
+  width: 100%;
+}
+.case-head .case-bg {
+  width: 100%;
+  overflow-x: hidden;
+}
+.case-head .case-bg img {
+  display: block;
+}
+.case-head .case-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  width: 1200px;
+  height: 110px;
+  margin: auto;
+  padding: 20px 50px;
+  font-size: 20px;
+  color: #666;
+  background: #fff;
+}
+.case-head .case-text .quote {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-size: 26px;
+  color: #666;
+}
+.case-head .case-text .text {
+  position: relative;
+  width: 900px;
+  line-height: 35px;
+  padding: 0 250px 0 40px;
+}
+.case-head .case-text .text:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-right: 1px dashed #ddd;
+  content: "";
+}
+.case-head .case-text .case-logo img {
+  display: block;
+}
+.case-main {
+  width: 100%;
+}
+.case-main .case-main-warp {
+  width: 1200px;
+  margin: 10px auto;
+  text-align: center;
+}
+.case-main .case-main-warp .case-title {
+  margin: 25px;
+  font-size: 24px;
+  color: #333;
+}
+.case-main .case-main-warp .case-container li p {
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  padding: 25px 200px;
+}

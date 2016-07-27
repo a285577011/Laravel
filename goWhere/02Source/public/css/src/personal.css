@@ -1,0 +1,531 @@
+.pc-warp {
+  width: 1200px;
+  min-height: 450px;
+  margin: 20px auto;
+}
+.pc-nav {
+  float: left;
+  width: 150px;
+  border: 1px solid #dfdfdf;
+}
+.pc-nav .pc-nav-item {
+  border-bottom: 1px solid #dfdfdf;
+}
+.pc-nav .pc-nav-item > a {
+  position: relative;
+  display: block;
+  padding: 10px 0 10px 20px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+}
+.pc-nav .pc-nav-item > a i {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  font-size: 12px;
+  color: #999;
+}
+.pc-nav .pc-nav-item > a:hover {
+  color: #fff;
+  background-color: #0896ff;
+}
+.pc-nav .pc-nav-item > a:hover i {
+  color: #fff;
+}
+.pc-nav .pc-nav-item .pc-sub-nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 0 10px 35px;
+  font-size: 12px;
+  color: #666;
+}
+.pc-nav .pc-nav-item .pc-sub-nav li a:hover {
+  color: #f58220;
+}
+.pc-nav .pc-nav-item .pc-sub-nav .cur a {
+  color: #f58220;
+}
+.pc-nav .pc-nav-item .pc-sub-nav .cur a:after {
+  position: absolute;
+  top: 12px;
+  right: -1px;
+  border-right: 5px solid #f58220;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content: "";
+}
+.pc-nav > .cur a {
+  color: #fff;
+  background-color: #f58220;
+}
+.pc-nav .no-bottom {
+  border-bottom: none;
+}
+.pc-main {
+  float: left;
+  width: 735px;
+  margin: 0 20px;
+}
+.pc-main-item {
+  padding: 0 15px;
+  border: 1px solid #dfdfdf;
+}
+.pc-title {
+  position: relative;
+  margin: 15px 0;
+  padding-left: 8px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #333;
+}
+.pc-title:before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 3px;
+  height: 16px;
+  background-color: #f58220;
+  border-radius: 2px;
+  content: "";
+}
+.pc-order-item {
+  padding: 15px;
+  border-top: 1px solid #dfdfdf;
+}
+.pc-order-item img {
+  float: left;
+  display: block;
+  width: 120px;
+  height: 44px;
+  margin-right: 20px;
+}
+.pc-order-item .p1 {
+  line-height: 22px;
+  font-size: 14px;
+  color: #f58220;
+}
+.pc-order-item .p2 {
+  line-height: 22px;
+  font-size: 12px;
+  color: #333;
+}
+.pc-order-item .s1 {
+  margin-right: 50px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #666;
+}
+.pc-order-item a {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  margin-top: 7px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #999;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+  text-align: center;
+}
+.pc-order-item a:hover {
+  color: #f58220;
+  border: 1px solid #f58220;
+}
+.pc-msg {
+  float: right;
+  width: 275px;
+}
+.pc-msg .personal-inf {
+  padding: 0 15px;
+  border: 1px solid #dfdfdf;
+}
+.pc-msg .personal-inf .avatar {
+  font-size: 18px;
+  color: #333;
+}
+.pc-msg .personal-inf .avatar img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+}
+.pc-msg .personal-inf .p-inf-item {
+  font-size: 12px;
+}
+.pc-msg .personal-inf .p-inf-item > div {
+  margin-bottom: 15px;
+}
+.pc-msg .personal-inf .p-inf-item .s1 {
+  color: #333;
+}
+.pc-msg .personal-inf .p-inf-item .s2 {
+  color: #999;
+}
+.pc-msg .personal-inf .p-inf-item a {
+  color: #666;
+  cursor: pointer;
+}
+.pc-msg .personal-inf .p-inf-item a:hover {
+  color: #f58220;
+}
+.my-order-warp {
+  float: left;
+  width: 1020px;
+  margin: 0 15px;
+}
+.my-order-warp .my-order-search {
+  border: 1px solid #dfdfdf;
+}
+.my-order-warp .my-order-search .all-type-order {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.my-order-warp .my-order-search .all-type-order a {
+  float: left;
+  display: block;
+  height: 45px;
+  padding: 0 35px;
+  line-height: 45px;
+  font-size: 14px;
+  color: #666;
+}
+.my-order-warp .my-order-search .all-type-order a:hover {
+  color: #f58220;
+}
+.my-order-warp .my-order-search .all-type-order .cur {
+  position: relative;
+  color: #f58220;
+}
+.my-order-warp .my-order-search .all-type-order .cur:after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #f58220;
+}
+.my-order-warp .my-order-search .other-order-condition {
+  height: 60px;
+  padding: 0 20px;
+  line-height: 60px;
+  font-size: 14px;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-item {
+  float: left;
+  margin-right: 30px;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-item .label {
+  margin-right: 10px;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-item input {
+  width: 130px;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-query {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #f58220;
+  text-align: center;
+  border-radius: 5px;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-time-range {
+  float: right;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-time-range a {
+  margin-left: 30px;
+  color: #999;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-time-range a:hover {
+  color: #f58220;
+}
+.my-order-warp .my-order-search .other-order-condition .ooc-time-range .cur {
+  color: #f58220;
+}
+.my-order-warp .my-order-result {
+  width: 100%;
+  margin-top: 25px;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+}
+.my-order-warp .my-order-result tr {
+  height: 46px;
+  line-height: 45px;
+  border-bottom: 1px solid #dfdfdf;
+}
+.my-order-warp .my-order-result td {
+  font-size: 14px;
+  color: #666;
+}
+.my-order-warp .my-order-result td a {
+  margin: 0 10px;
+  color: #666;
+}
+.my-order-warp .my-order-result td a:hover {
+  color: #f58220;
+}
+.pagination {
+  float: right;
+  margin-top: 30px;
+}
+.pagination a,
+.pagination span {
+  float: left;
+  width: 35px;
+  height: 35px;
+  line-height: 33px;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid #dfdfdf;
+  text-align: center;
+  cursor: pointer;
+}
+.pagination a:hover,
+.pagination span:hover {
+  color: #f58220;
+  border-color: #f58220;
+}
+.pagination .current {
+  color: #f58220;
+  border-color: #f58220;
+}
+.pagination .current.prev,
+.pagination .current.next {
+  color: #eee;
+  border-color: #eee;
+  cursor: not-allowed;
+}
+.pagination .prev,
+.pagination .next {
+  width: 70px;
+  margin: 0 10px;
+}
+.pagination .prev i,
+.pagination .next i {
+  font-size: 12px;
+}
+.personal-modules {
+  float: left;
+  width: 1020px;
+  margin: 0 15px;
+}
+.personal-module {
+  position: relative;
+  margin-bottom: 15px;
+  padding: 0 15px 15px;
+  border: 1px solid #dfdfdf;
+}
+.pi-avatar {
+  position: relative;
+  float: left;
+  width: 148px;
+  height: 148px;
+  margin-right: 25px;
+}
+.pi-avatar img {
+  width: 100%;
+  height: 100%;
+}
+.pi-avatar .change-avatar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.pi-msg {
+  float: left;
+  font-size: 14px;
+}
+.pi-msg p {
+  line-height: 29px;
+  color: #333;
+}
+.pi-msg p .label {
+  display: inline-block;
+  width: 70px;
+  text-align: left;
+  margin-right: 15px;
+  color: #666;
+}
+.pi-modify {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  font-size: 14px;
+  color: #f58220;
+}
+.modify-pi-msg .pi-msg p {
+  line-height: 36px;
+}
+.modify-pi-msg .pi-modify-ok,
+.modify-pi-msg .pi-modify-undo {
+  position: absolute;
+  bottom: 25px;
+  width: 120px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 4px;
+  text-align: center;
+}
+.modify-pi-msg .pi-modify-ok:hover,
+.modify-pi-msg .pi-modify-undo:hover {
+  color: #fff;
+  border-color: #f58220;
+  background-color: #f58220;
+}
+.modify-pi-msg .pi-modify-ok {
+  right: 210px;
+}
+.modify-pi-msg .pi-modify-undo {
+  right: 60px;
+}
+.security-settings form,
+.security-settings > div {
+  position: relative;
+  line-height: 36px;
+  font-size: 14px;
+}
+.security-settings form .s1,
+.security-settings > div .s1 {
+  color: #666;
+}
+.security-settings form .s1 i,
+.security-settings > div .s1 i {
+  margin-right: 5px;
+}
+.security-settings form .s1 .c-success,
+.security-settings > div .s1 .c-success {
+  color: #11cd6e;
+}
+.security-settings form .s1 .c-fail,
+.security-settings > div .s1 .c-fail {
+  color: #eb4f38;
+}
+.security-settings form .s2,
+.security-settings > div .s2 {
+  display: inline-block;
+  width: 360px;
+  color: #666;
+  text-align: center;
+}
+.security-settings form .s3,
+.security-settings > div .s3 {
+  display: inline-block;
+  color: #666;
+  text-align: left;
+}
+.security-settings form .modify-btn,
+.security-settings > div .modify-btn {
+  position: absolute;
+  right: 15px;
+  color: #f58220;
+}
+.security-settings form .verify-tip,
+.security-settings > div .verify-tip {
+  color: #df323d;
+}
+.m-modify {
+  margin: 15px 0;
+  padding: 15px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.m-modify .mm-item {
+  padding-left: 35px;
+}
+.m-modify .mm-item .label {
+  display: inline-block;
+  width: 75px;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+}
+.m-modify .mm-item .get-verify {
+  display: inline-block;
+  height: 30px;
+  margin-left: 20px;
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #f58220;
+  text-align: center;
+}
+.m-modify .mm-item .invalid {
+  font-size: 12px;
+  background-color: #a9a9a9;
+  cursor: not-allowed;
+}
+.m-modify .mm-btns {
+  margin-top: 15px;
+  margin-left: 35px;
+}
+.m-modify .mm-btns a {
+  display: inline-block;
+  width: 120px;
+  height: 36px;
+  line-height: 34px;
+  font-size: 14px;
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 4px;
+  text-align: center;
+}
+.m-modify .mm-btns a:hover {
+  color: #fff;
+  border-color: #f58220;
+  background-color: #f58220;
+}
+.m-modify .mm-btns .mm-ok {
+  margin-right: 30px;
+}
+.user-order-detail {
+  padding: 20px 0;
+  margin-bottom: 20px;
+  border-top: 2px solid #fed1aa;
+  border-bottom: 1px dashed #ccc;
+  font-size: 14px;
+  color: #666;
+}
+.user-order-detail .p1 {
+  line-height: 20px;
+}
+.user-order-detail .s1 {
+  font-size: 20px;
+  color: #f58220;
+}
+.user-turn-pay {
+  display: block;
+  margin: 20px auto 0;
+  width: 100px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  background-color: #f58220;
+}
+.no-order-result {
+  padding: 20px 20px 20px 170px;
+  font-size: 14px;
+  color: #999;
+  border-top: 1px solid #ddd;
+}
+.no-order-result img {
+  vertical-align: middle;
+}

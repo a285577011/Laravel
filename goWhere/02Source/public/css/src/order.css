@@ -1,0 +1,536 @@
+.order-write {
+  width: 1200px;
+  height: auto;
+  margin: auto;
+}
+.order-write .order-write-warp .order-write-title {
+  font-size: 24px;
+  color: #333;
+}
+.order-write .order-write-warp .order-write-main .order-write-left {
+  float: left;
+  width: 840px;
+  margin: 17px 15px 60px 0;
+  border: 1px solid #e6e6e6;
+  border-top: 5px solid #fed1aa;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form {
+  position: relative;
+  padding: 5px 20px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg {
+  padding: 20px 0;
+  border-bottom: 2px dashed #ccc;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-title {
+  position: relative;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #333;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-title:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 6px;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .order-write-msg-item {
+  line-height: 40px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .order-write-msg-item .order-msg-label {
+  display: inline-block;
+  width: 76px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #666;
+  text-align: right;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .order-write-msg-item .radio-warp {
+  display: inline-block;
+  margin-left: 56px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .insurance-msg {
+  font-size: 14px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .insurance-msg .checkbox {
+  margin-left: 20px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .insurance-msg .im1 {
+  display: inline-block;
+  width: 220px;
+  padding: 0 10px;
+  color: #0896ff;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .insurance-msg .im2 {
+  display: inline-block;
+  width: 100px;
+  padding: 0 10px;
+  color: #666;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .insurance-msg .im2 span {
+  color: #f58220;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .insurance-msg .im3 {
+  display: inline-block;
+  padding: 0 10px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .passenger-msg-tip {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .passenger-msg-tip i {
+  font-size: 14px;
+  color: #0896ff;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-msg .order-write-msg-main .passenger-msg-tip span {
+  font-size: 12px;
+  color: #999;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .no-bottom {
+  border-bottom: none;
+}
+.order-write .order-write-warp .order-write-main .order-write-left .order-write-form .order-btn {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  width: 90px;
+  height: 40px;
+  margin-left: -45px;
+  background: #F38120;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.order-write .order-write-warp .order-write-main .order-write-right {
+  float: left;
+  width: 345px;
+  margin-top: 17px;
+  border: 1px solid #e6e6e6;
+  border-top: 7px solid #fed1aa;
+  border-radius: 3px;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp {
+  width: 100%;
+  padding: 10px;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .pay-view-title {
+  font-size: 18px;
+  color: #333;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .p1 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .pay-view-item {
+  position: relative;
+  width: 100%;
+  height: 30px;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .pay-view-item .pvl {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px;
+  color: #999;
+  background-color: #fff;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .pay-view-item .pv-line {
+  z-index: 1;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  border-bottom: 1px dashed #ccc;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .pay-view-item .pvr {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  padding: 5px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .total-price {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #999;
+  text-align: right;
+}
+.order-write .order-write-warp .order-write-main .order-write-right .order-write-right-warp .pay-view .total-price span {
+  font-size: 24px;
+  color: #f58220;
+}
+.pt-num {
+  display: inline-block;
+  margin-right: 20px;
+}
+.pt-num .minus,
+.pt-num .add {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 14px;
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  cursor: pointer;
+}
+.pt-num .num {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+  text-align: center;
+}
+.pt-num span {
+  font-size: 14px;
+  color: #333;
+}
+.order-pay {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto 80px;
+  border: 1px solid #e6e6e6;
+  border-top: 5px solid #fed1aa;
+}
+.order-pay .order-pay-step {
+  padding: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.order-pay .order-pay-step .order-pay-title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+.order-pay .order-pay-step .order-pay-msg {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #ccc;
+}
+.order-pay .order-pay-step .order-pay-msg .order-pay-msg-title {
+  position: relative;
+  height: 30px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 20px;
+  color: #333;
+}
+.order-pay .order-pay-step .order-pay-msg .order-pay-msg-title:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 6px;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+.order-pay .order-pay-step .order-pay-msg .p1 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+.order-pay .order-pay-step .order-pay-msg .s1 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  min-width: 400px;
+  font-size: 14px;
+  color: #999;
+}
+.order-pay .order-pay-step .order-pay-msg .s1 span {
+  margin-right: 30px;
+  color: #666;
+}
+.order-pay .order-pay-step .order-pay-msg .s2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.order-pay .order-pay-step .order-pay-money {
+  font-size: 14px;
+  color: #666;
+}
+.order-pay .order-pay-step .order-pay-money span {
+  font-size: 24px;
+  color: #f58220;
+}
+.order-pay .order-pay-step .p2 {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #f58220;
+}
+.order-pay .order-pay-step .order-pay-type {
+  margin-left: 20px;
+}
+.order-pay .order-pay-step .order-pay-type .p3 {
+  padding-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 1px dashed #c5c5c5;
+}
+.order-pay .order-pay-step .order-pay-type .radio-warp {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 50px;
+  padding-left: 20px;
+}
+.order-pay .order-pay-step .order-pay-type .radio-warp .radio {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+.order-pay .order-pay-step .order-pay-type .radio-warp .pay-type-img {
+  display: inline-block;
+  width: 140px;
+  height: 40px;
+}
+.order-pay .order-pay-step .order-pay-type .radio-warp .pay-type-img.alipay {
+  background-image: url("../../images/alipay.jpg");
+}
+.order-pay .pay-btns {
+  position: absolute;
+  left: 50%;
+  margin-left: -135px;
+  bottom: -60px;
+}
+.order-pay .pay-btns button {
+  display: inline-block;
+  width: 120px;
+  line-height: 40px;
+  height: 40px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+.order-pay .pay-btns .pay-ok {
+  background-color: #f58220;
+}
+.order-success {
+  width: 1200px;
+  margin: auto;
+  border: 1px solid #e6e6e6;
+  border-top: 5px solid #fed1aa;
+}
+.order-success .success-msg {
+  position: relative;
+  padding-left: 130px;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.order-success .success-msg .success-mark {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  background-color: #5ecd5e;
+  border-radius: 50%;
+}
+.order-success .success-msg .success-mark i {
+  font-size: 40px;
+  color: #fff;
+}
+.order-success .success-msg .p1 {
+  font-size: 20px;
+  color: #333;
+}
+.order-success .success-msg .p2 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #666;
+}
+.order-success .success-msg .p2 .view-order {
+  color: #0896ff;
+}
+.order-success .success-order-msg {
+  padding: 20px;
+  border-top: 1px dashed #cccccc;
+}
+.order-success .success-order-msg .p1 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+.order-success .success-order-msg .s1 {
+  margin-bottom: 10px;
+  display: inline-block;
+  min-width: 400px;
+  font-size: 14px;
+  color: #999;
+}
+.order-success .success-order-msg .s1 span {
+  margin-right: 30px;
+  color: #666;
+}
+.other-relevant {
+  margin-top: 40px;
+  width: 100%;
+}
+.other-relevant-warp {
+  width: 1200px;
+  margin: auto;
+}
+.other-relevant-options {
+  border-bottom: 3px solid #ccc;
+}
+.other-relevant-option {
+  position: relative;
+  float: left;
+  padding: 20px 25px;
+  margin-left: 45px;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+.other-relevant-option hr {
+  display: none;
+}
+.other-relevant-option-cur {
+  color: #F38120;
+}
+.other-relevant-option-cur hr {
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  border: none;
+  border-bottom: 3px solid #F38120;
+  width: 100%;
+}
+.other-relevant-option-cur hr:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #F38120;
+}
+.airline-relevant {
+  margin-top: 15px;
+}
+.airline-relevant li {
+  float: left;
+  padding: 20px 40px 0;
+}
+.airline-relevant-item {
+  width: 320px;
+  height: 85px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.airline-path {
+  float: left;
+  padding: 20px 0 0 20px;
+  font-size: 14px;
+  color: #666;
+  line-height: 26px;
+}
+.airline-path i {
+  font-size: 20px;
+  margin: 0 5px;
+}
+.airline-price {
+  float: right;
+  margin: 30px;
+  font-size: 12px;
+  color: #666;
+}
+.tour-relevant li {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.tour-relevant li img {
+  float: left;
+  width: 180px;
+  height: 120px;
+}
+.tour-relevant-detail {
+  float: left;
+  padding: 20px 0;
+  width: 760px;
+}
+.tour-relevant-detail-btn {
+  float: right;
+  margin: 25px 70px 0 0;
+}
+.tour-relevant-btn {
+  display: block;
+  margin-top: 20px;
+  width: 83px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  background: #ffb06b;
+  color: #fff;
+}
+.hotel-relevant li {
+  float: left;
+  width: 360px;
+  margin: 20px;
+}
+.hotel-relevant li a {
+  display: block;
+  width: 100%;
+}
+.hotel-relevant li a img {
+  width: 100%;
+  height: 240px;
+}
+.hotel-relevant li a .hotel-relevant-detail {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+}
+.hotel-relevant li a .hotel-relevant-detail .p1 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666;
+}
+.hotel-relevant li a .hotel-relevant-detail .p2 {
+  font-size: 12px;
+  color: #666;
+}
+.hotel-relevant li a .hotel-relevant-detail .p2 .s1 {
+  color: #f58220;
+}
+.hotel-relevant li a .hotel-relevant-detail .p2 .s1 span {
+  font-size: 18px;
+}
